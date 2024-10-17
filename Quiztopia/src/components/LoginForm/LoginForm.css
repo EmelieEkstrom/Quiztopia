@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+    color: rgb(0, 4, 255);
+    width: 1420px;
+    height: 1300px; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+ 
+}  
+
+.secret-button  {
+    display: flex;   
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(192, 188, 188);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    
+}   
+
+#login-button {
+    display: flex;   
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: rgb(192, 188, 188);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+input {
+    font-size: 30px;
+    text-align: flex-start;
+    background-color: lightgrey;
+    color: black;
+    width: 20%; /* Adjust the width as needed */
+    padding: 12px;
+    margin: 0; /* Remove extra margins to avoid breaking the layout */
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-family: monospace;
+    font-size: medium;
+}

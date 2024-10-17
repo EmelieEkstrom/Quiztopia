@@ -1,0 +1,37 @@
+.quiz-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 1rem;
+    padding: 2rem; 
+}
+
+.quiz-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center; /* Centers the text inside each card */
+}
+
+.all-quizzes {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#show-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#show-btn:hover {
+    background-color: #0056b3;
+}
+
